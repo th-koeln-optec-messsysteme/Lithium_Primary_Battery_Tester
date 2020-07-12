@@ -1,6 +1,0 @@
-In diesem Projekt soll festgestellt werden, ob eine Kapazitätsmessung der Batterie L91 von Energizer möglich ist und ein Batterietester aufgebaut werden. Dazu wurden folgende 
-Ansätze verfolgt:
-1. Die Kapazität soll mithilfe des Pulse response ermittelt werden. Dazu soll ein 100mA-Impuls auf die Batterie gegeben werden. Je nach dem, wie lange die Batterie benötigt, um 
-   sich zu erholen (bis sich die Batteriespannung wieder stabilisiert hat), soll die Kapazität ermittelt werden.
-2. Die Spannung soll an der Batterie gemessen werden, während sie mit 100mA belastet wird.
-
