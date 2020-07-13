@@ -14,7 +14,7 @@ Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut w
 
 
 | Prozent  | Gemessener Wert |
-| -------- | --------------- |
+| -------: | --------------- |
 | 100  | Content Cell  |
 |  95  | Content Cell  |
 |  90  | Content Cell  |
