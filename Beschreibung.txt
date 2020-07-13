@@ -1,0 +1,32 @@
+In diesem Projekt soll festgestellt werden, ob eine Kapazitätsmessung der Batterie L91 von Energizer möglich ist und ein Batterietester aufgebaut werden. Dazu wurden folgende
+Ansätze verfolgt:
+
+Die Kapazität soll mithilfe des Pulse response ermittelt werden. Dazu soll ein 100mA-Impuls auf die Batterie gegeben werden. Je nach dem, wie lange die Batterie benötigt, um
+sich zu erholen (bis sich die Batteriespannung wieder stabilisiert hat), soll die Kapazität ermittelt werden.
+Die Spannung soll an der Batterie gemessen werden, während sie mit 100mA belastet wird.
+Der Spannungstester wird mit einem Arduino Nano Every realisiert. Dabei ist aufgefallen, dass der Arduino anfällig für externe Störquellen wie ein Laptop-Netzteil ist. Die
+Störquellen wirken sich auf die Versorgungsspannung und somit auf die Referenzspannung des Controllers aus und verfälschen somit die Analogmessung. Daher sollte auf eine störarme Umgebung geachtet werden.
+
+Messergebnisse:
+Um den Pulse response zu ermitteln, wurde das Programm Spannungsverlauf_Aufzeichnung.ino geschrieben. Jedoch ist aufgefallen, dass es nur bei komplett leeren Batterien zu einer Erholung nach einer Last von 100mA kommt. Der im Datenblatt beschriebene Pulse response gibt scheinbar nur die Flankensteilheit bei einer Belastung an und gibt somit keine Aufschlüsse der Kapazität.
+Jedoch lässt sich somit mit der Messung Punkt 2 realisieren (Funktionsbeschreibung der Messung siehe Beschreibung Spannungsverlauf_Aufzeichnung.ino). Folgende Werte wurden ermittelt:
+166949
+167304
+166726
+166156
+165467
+164849
+164139
+163857
+164255
+163221
+162403
+161551
+159782
+158586
+158178
+156292
+155265
+153073
+150757
+146316
