@@ -10,6 +10,13 @@ Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut w
 ![Schaltplan](Schaltplan/schaltplan.png)
 
 
+## Funktionsweise
+Zur Realisierung wurden 2 Ansätze verfolgt:
+   1. Die Kapazität soll mithilfe des Pulse Response ermittelt werden. Dazu soll ein 100mA-Impuls auf die Batterie gegeben werden. Je nach dem, wie lange die Batterie benötigt, um sich zu erholen (bis sich die Batteriespannung wieder stabilisiert hat), soll die Kapazität ermittelt werden.
+   2. Die spannung soll an der Batterie gemessen werden, während sie mit 100mA belastet wird.
+
+
+
 ## Messungen
 
 
@@ -21,3 +28,5 @@ Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut w
 |  85  | Content Cell  |
 |  80  | Content Cell  |
 |  75  | Content Cell  |
+
+
