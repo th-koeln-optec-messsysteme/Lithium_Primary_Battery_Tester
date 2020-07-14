@@ -21,6 +21,7 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 
 ![1](Messergebnisse/350mA_impuls_5s_25%.png =100x200)
+
 ![2](Messergebnisse/350mA_impuls_5s_25%.png =100x)
 
 
