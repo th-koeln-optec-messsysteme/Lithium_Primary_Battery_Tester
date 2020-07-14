@@ -27,8 +27,6 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 
 
-## Messungen
-
 #### 350mA impuls=5s Kap.=100%
 <img src="Messergebnisse/350mA_impuls_5s_100.png" width=500>
 
@@ -58,3 +56,7 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
       <img src="Messergebnisse/350mA_impuls_5s_25.png" width=600>
       <em>image_caption</em>
 </p>
+
+
+
+##Spannugsmessung
