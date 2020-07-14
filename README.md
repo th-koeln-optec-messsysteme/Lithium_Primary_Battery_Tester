@@ -27,7 +27,7 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 
 ## Messungen
-![Test](Messergebnisse/350mA_impuls_5s_100%.png)
+![Test](Messergebnisse/test.png)
 
 | Prozent  | Gemessener Wert |
 | -------: | --------------- |
