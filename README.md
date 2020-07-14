@@ -20,9 +20,9 @@ Zur Realisierung wurden 2 Ansätze verfolgt:
 Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es keine wirkliche Pulse Response gibt. Die im Datenblatt angegebene Pulse Response scheint sich nur auf die Flanensteilheit und nicht auf die Kapazität zu beziehen:
 
 
-![Messergbnis](Messergebnisse/350mA_impuls_5s_25%.png)
+![Messergbnis](Messergebnisse/350mA_impuls_5s_25.png)
 
-![350mA_impuls_5s_25%](Messergebnisse/350mA_impuls_5s_100%.png)
+![350mA_impuls_5s_100%](Messergebnisse/350mA_impuls_5s_100.png)
 
 
 
