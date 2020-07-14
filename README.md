@@ -24,7 +24,7 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 ![350mA_impuls_5s_100%](Messergebnisse/350mA_impuls_5s_100.png)
 
-<img scr="Messergebnisse/350mA_impuls_5s_25.png" alt="drawing"/>
+<img scr="Messergebnisse/350mA_impuls_5s_25.png" alt="drawing">
 
 
 ## Messungen
