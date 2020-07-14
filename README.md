@@ -8,7 +8,7 @@ Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut w
 ## Platine
 ### Schaltplan
 ![Schaltplan](Schaltplan/schaltplan.png)
-<img src="Schaltplan/schaltplan.png" width=100>
+<img src="Schaltplan/schaltplan.png" width=500>
 
 ## Funktionsweise
 Zur Realisierung wurden 2 Ansätze verfolgt:
@@ -48,4 +48,4 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 ## Test Markdown
 
-<img scr="Messergebnisse/350mA_impuls_5s_25.png" width=100>
+<img src="Messergebnisse/350mA_impuls_5s_25.png" width=100>
