@@ -22,7 +22,7 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 ![Messergbnis](Messergebnisse/350mA_impuls_5s_25%.png)
 
-![350mA_impuls_5s_25%](Messergebnisse/350mA_impuls_5s_25%.png =100x)
+![350mA_impuls_5s_25%](Messergebnisse/350mA_impuls_5s_100%.png)
 
 
 ## Messungen
