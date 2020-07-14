@@ -24,16 +24,16 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 ## Messungen
 
-### 350mA_impuls_5s_100%
+#### 350mA_impuls_5s_100%
 ![350mA_impuls_5s_100%](Messergebnisse/350mA_impuls_5s_100.png)
 
-### 350mA_impuls_5s_75%
+#### 350mA_impuls_5s_75%
 ![350mA_impuls_5s_75%](Messergebnisse/350mA_impuls_5s_75.png)
 
-### 350mA_impuls_5s_50%
+#### 350mA_impuls_5s_50%
 ![350mA_impuls_5s_50%](Messergebnisse/350mA_impuls_5s_50.png)
 
-### 350mA_impuls_5s_25%
+#### 350mA_impuls_5s_25%
 ![350mA_impuls_5s_25%](Messergebnisse/350mA_impuls_5s_25.png)
 
 | Prozent  | Gemessener Wert |
