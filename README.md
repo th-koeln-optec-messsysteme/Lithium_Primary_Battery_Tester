@@ -20,15 +20,21 @@ Zur Realisierung wurden 2 Ansätze verfolgt:
 Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es keine wirkliche Pulse Response gibt. Die im Datenblatt angegebene Pulse Response scheint sich nur auf die Flanensteilheit und nicht auf die Kapazität zu beziehen:
 
 
-![Messergbnis](./Messergebnisse/350mA_impuls_5s_25.png=100x100)
-
-![350mA_impuls_5s_100%](Messergebnisse/350mA_impuls_5s_100.png){ width=50% }
-
-<img scr="Messergebnisse/350mA_impuls_5s_25.png" alt="drawing">
 
 
 ## Messungen
-![Test](Messergebnisse/test.png)
+
+### 350mA_impuls_5s_100%
+![350mA_impuls_5s_100%](Messergebnisse/350mA_impuls_5s_100.png)
+
+### 350mA_impuls_5s_75%
+![350mA_impuls_5s_75%](Messergebnisse/350mA_impuls_5s_75.png)
+
+### 350mA_impuls_5s_50%
+![350mA_impuls_5s_50%](Messergebnisse/350mA_impuls_5s_50.png)
+
+### 350mA_impuls_5s_25%
+![350mA_impuls_5s_25%](Messergebnisse/350mA_impuls_5s_25.png)
 
 | Prozent  | Gemessener Wert |
 | -------: | --------------- |
@@ -40,3 +46,10 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 |  75  | Content Cell  |
 
 
+## Test Markdown
+
+![Messergbnis](./Messergebnisse/350mA_impuls_5s_25.png=100x100)
+
+![350mA_impuls_5s_100%](Messergebnisse/350mA_impuls_5s_100.png){ width=50% }
+
+<img scr="Messergebnisse/350mA_impuls_5s_25.png" alt="drawing">
