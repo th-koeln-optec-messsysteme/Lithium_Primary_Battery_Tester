@@ -28,16 +28,16 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 ## Messungen
 
-#### 350mA_impuls_5s_100%
+#### 350mA impuls=5s Kap.=100%
 <img src="Messergebnisse/350mA_impuls_5s_100.png" width=500>
 
-#### 350mA_impuls_5s_75%
+#### 350mA impuls=5s Kap.=75%
 <img src="Messergebnisse/350mA_impuls_5s_75.png" width=500>
 
-#### 350mA_impuls_5s_50%
+#### 350mA impuls=5s Kap.=50%
 <img src="Messergebnisse/350mA_impuls_5s_50.png" width=500>
 
-#### 350mA_impuls_5s_25%
+#### 350mA impuls=5s Kap.=25%
 <img src="Messergebnisse/350mA_impuls_5s_25.png" width=500>
 
 | Prozent  | Gemessener Wert |
@@ -50,7 +50,7 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 |  75  | Content Cell  |
 
 
-## Test Markdown
+### 350mA Impuls=5s Kap=25%
 
 
 <p>
