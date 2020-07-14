@@ -8,7 +8,7 @@ Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut w
 ## Platine
 ### Schaltplan
 ![Schaltplan](Schaltplan/schaltplan.png)
-
+<img src="Schaltplan/schaltplan.png">
 
 ## Funktionsweise
 Zur Realisierung wurden 2 Ansätze verfolgt:
