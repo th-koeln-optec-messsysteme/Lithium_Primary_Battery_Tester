@@ -48,4 +48,4 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 ## Test Markdown
 
-<img scr="Messergebnisse/350mA_impuls_5s_25.png" width=500 >
+<img scr="Messergebnisse/350mA_impuls_5s_25.png" width=100>
