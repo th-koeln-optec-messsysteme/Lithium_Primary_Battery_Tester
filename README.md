@@ -6,6 +6,11 @@ Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut w
 ## Aufbau Code
 
 ## Platine
+### Bauteile
+| Lf Nr. | Bauteil | Größe | Einheit |
+| ------ | ------- | ----- | ------- |
+| 1      | Arduino Nano every | | |
+
 ### Schaltplan
 ![Schaltplan](Schaltplan/schaltplan.png)
 
