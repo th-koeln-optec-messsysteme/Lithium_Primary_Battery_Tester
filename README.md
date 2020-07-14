@@ -59,4 +59,4 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 
 
-##Spannugsmessung
+## Spannugsmessung
