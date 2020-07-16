@@ -1,5 +1,9 @@
 # Aufbau eines Batterietesters für Lithiumbatterien
 
+-[Aufgabenstellung](#Aufgabenstellung)
+-[Platine](#Platine)
+      -[Bauteile](#Bauteile)
+
 ## Aufgabenstellung
 Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut werden, der die verbleibende Kapazität einer Batterie durch Messung des Spannungabfalls an verschiedenen Testlasten approximiert. Dabei soll die Arduino-Plattform verwendet werden.
 
@@ -9,8 +13,11 @@ Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut w
 ### Bauteile
 | Lf Nr.| Bauteil | Größe | Einheit |
 | ---| ------- | ----- | ------- |
-| 1  | Microcontroller | | Arduino Nano Every |
-|2   | Display| 20x4 | LCD 20x4 Display|
+| 1 | Microcontroller | | Arduino Nano Every |
+| 2 | Display| 20x4 | LCD 20x4 Display|
+| 3 | OpAmp |  |  |
+| 4 |  |  |  |
+| 5 |  |  |  |
 
 ### Schaltplan
 
@@ -36,7 +43,7 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 <img src="Images/Messergebnisse/350mA_impuls_5s_100.png" width=500>
 
 #### 350mA impuls=5s Kap.=75%
-<img src="Iamges/Messergebnisse/350mA_impuls_5s_75.png" width=500>
+<img src="Images/Messergebnisse/350mA_impuls_5s_75.png" width=500>
 
 #### 350mA impuls=5s Kap.=50%
 <img src="Images/Messergebnisse/350mA_impuls_5s_50.png" width=500>
