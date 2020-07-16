@@ -13,7 +13,11 @@ Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut w
 |2   | Display| 20x4 | LCD 20x4 Display|
 
 ### Schaltplan
-![Schaltplan](Images/Schaltplan/schaltplan.png)
+
+Schaltplan Version 1:
+![](Images/Schaltplan/SchaltplanV1.png)
+Schaltplan Version 2:
+![](Images/Schaltplan/SchaltplanV2.png)
 
 ## Funktionsweise
 Zur Realisierung wurden 2 Ansätze verfolgt:  
