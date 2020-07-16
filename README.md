@@ -3,7 +3,7 @@
 ## Aufgabenstellung
 Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut werden, der die verbleibende Kapazität einer Batterie durch Messung des Spannungabfalls an verschiedenen Testlasten approximiert. Dabei soll die Arduino-Plattform verwendet werden.
 
-## Aufbau Code
+## Code
 
 ## Platine
 ### Bauteile
@@ -13,7 +13,7 @@ Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut w
 |2   | Display| 20x4 | LCD 20x4 Display|
 
 ### Schaltplan
-![Schaltplan](Schaltplan/schaltplan.png)
+![Schaltplan](Images/Schaltplan/schaltplan.png)
 
 ## Funktionsweise
 Zur Realisierung wurden 2 Ansätze verfolgt:  
@@ -29,16 +29,16 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 
 #### 350mA impuls=5s Kap.=100%
-<img src="Messergebnisse/350mA_impuls_5s_100.png" width=500>
+<img src="Images/Messergebnisse/350mA_impuls_5s_100.png" width=500>
 
 #### 350mA impuls=5s Kap.=75%
-<img src="Messergebnisse/350mA_impuls_5s_75.png" width=500>
+<img src="Iamges/Messergebnisse/350mA_impuls_5s_75.png" width=500>
 
 #### 350mA impuls=5s Kap.=50%
-<img src="Messergebnisse/350mA_impuls_5s_50.png" width=500>
+<img src="Images/Messergebnisse/350mA_impuls_5s_50.png" width=500>
 
 #### 350mA impuls=5s Kap.=25%
-<img src="Messergebnisse/350mA_impuls_5s_25.png" width=500>
+<img src="Images/Messergebnisse/350mA_impuls_5s_25.png" width=500>
 
 | Prozent  | Gemessener Wert |
 | -------: | --------------- |
@@ -54,7 +54,7 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 
 <p>
-      <img src="Messergebnisse/350mA_impuls_5s_25.png" width=600>
+      <img src="Images/Messergebnisse/350mA_impuls_5s_25.png" width=600>
       <em>image_caption</em>
 </p>
 
