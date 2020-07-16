@@ -2,8 +2,8 @@
 
 - [Aufgabenstellung](#Aufgabenstellung)
 - [Platine](#Platine)
-      - [Bauteile](#Bauteile)
-      - [Schaltplan](#Schaltplan)
+ - [Bauteile](#Bauteile)
+ - [Schaltplan](#Schaltplan)
 - [Funktionsweise](#Funktionsweise)
 
 ## Aufgabenstellung
