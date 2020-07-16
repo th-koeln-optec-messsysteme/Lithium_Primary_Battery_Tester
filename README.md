@@ -7,9 +7,10 @@ Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut w
 
 ## Platine
 ### Bauteile
-| Lf Nr. | Bauteil | Größe | Einheit |
-| ------ | ------- | ----- | ------- |
-| 1      | Arduino Nano every | | |
+| Lf Nr.| Bauteil | Größe | Einheit |
+| ---| ------- | ----- | ------- |
+| 1  | Microcontroller | | Arduino Nano Every |
+|2   | Display| 20x4 | LCD 20x4 Display|
 
 ### Schaltplan
 ![Schaltplan](Schaltplan/schaltplan.png)
