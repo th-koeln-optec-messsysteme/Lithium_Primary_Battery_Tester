@@ -24,9 +24,16 @@ Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut w
 ### Schaltplan
 
 Schaltplan Version 1:
+
 ![](Images/Schaltplan/SchaltplanV1.png)
+
 Schaltplan Version 2:
+
 ![](Images/Schaltplan/SchaltplanV2.png)
+
+Schematischer Aufbau:
+
+![](Images/Schaltplan/SchematischerAufbau.png)
 
 ## Funktionsweise
 Zur Realisierung wurden 2 Ansätze verfolgt:  
