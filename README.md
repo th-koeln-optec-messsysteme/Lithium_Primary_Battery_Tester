@@ -9,21 +9,29 @@
    - [Pulse Response](#Pulse Response)
    - [Spannungsmessung](#Spannungsmessung)
 
+
+---
+
 ## Aufgabenstellung
 Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut werden, der die verbleibende Kapazität einer Batterie durch Messung des Spannungabfalls an verschiedenen Testlasten approximiert. Dabei soll die Arduino-Plattform verwendet werden.
 
+
 ## Code
 
-## Platine
-### Bauteile
-| Lf Nr.| Bauteil         | Größe | Einheit            |
-| ------| --------------- | ----- | ------------------ |
-| 1     | Microcontroller |       | Arduino Nano Every |
-| 2     | Display         | 20x4  | LCD 20x4 Display   |
-| 3     | OpAmp           |       |  |
-| 4     | ADC             |       |  |
-| 5     | DAC             |       |  |
 
+## Platine
+Da es sich um ein Prototypen handelt, wird die Schaltung auf einer Lochrasterplatine aufgebaut.
+
+### Bauteile
+| Lf Nr.| Bauteil         |  Typ       | Beschreibung                                   |
+| ------| --------------- |  --------- | ---------------------------------------------- |
+| 1     | Microcontroller | Arduino    | Arduino Nano Every                             |
+| 2     | Display         | 20x4       | LCD 20x4 Display                               |
+| 3     | OpAmp           | LMx58-N    | LMx58-N Low-Power, Dual-Operational Amplifiers |
+| 4     | MOSFET          | TN0702N3-G | N-Channel 60-V (D-S) MOSFET                    |
+| 5     | ADC             | ADS1115    | Analog-in-Digital-Wandler 16 Bit               |
+| 6     | DAC             | MCP4921    | Digital-in-Analog-Wandler - DAC Sgl 12-bit SPI |
+| 7     | Batteriehalter  | AA         | Batteriehalter für AA Batterien                |
 
 ### Schaltplan
 
