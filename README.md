@@ -6,7 +6,7 @@
    - [Schaltplan](#Schaltplan)
 - [Funktionsweise](#Funktionsweise)
 - [Messungen](#Messungen)
-   - [Pulse Response](#Pulse Response)
+   - [Pulse Response](#Pulse%20Response)
    - [Spannungsmessung](#Spannungsmessung)
 
 [Link Markdown](https://github.com/FriendsOfREDAXO/markitup/blob/master/plugins/documentation/docs/de_de/howto_markdown.md)
