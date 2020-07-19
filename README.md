@@ -39,15 +39,15 @@ Da es sich um ein Prototypen handelt, wird die Schaltung auf einer Lochrasterpla
 
 Schaltplan Version 1:
 
-![](Images/Schaltplan/SchaltplanV1.png)
+![](images/circuit_diagram/SchaltplanV1.png)
 
 Schaltplan Version 2:
 
-![](Images/Schaltplan/SchaltplanV2.png)
+![](images/circuit_diagram/SchaltplanV2.png)
 
 Schematischer Aufbau:
 
-![](Images/Schaltplan/SchematischerAufbau.png)
+![](images/circuit_diagram/SchematischerAufbau.png)
 
 ## Funktionsweise
 Zur Realisierung wurden 2 Ansätze verfolgt:  
@@ -65,35 +65,49 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 
 ##### 350mA impuls=5s Kap.=100%
-<img src="Images/Messergebnisse/350mA_impuls_5s_100.png" width=500>
+<img src="images/measurement_results/350mA_impuls_5s_100.png" width=500>
 
 ##### 350mA impuls=5s Kap.=75%
-<img src="Images/Messergebnisse/350mA_impuls_5s_75.png" width=500>
+<img src="images/measurement_results/350mA_impuls_5s_75.png" width=500>
 
 ##### 350mA impuls=5s Kap.=50%
-<img src="Images/Messergebnisse/350mA_impuls_5s_50.png" width=500>
+<img src="images/measurement_results/350mA_impuls_5s_50.png" width=500>
 
 ##### 350mA impuls=5s Kap.=25%
-<img src="Images/Messergebnisse/350mA_impuls_5s_25.png" width=500>
+<img src="images/measurement_results/350mA_impuls_5s_25.png" width=500>
 
-| Prozent  | Gemessener Wert |
-| -------: | --------------- |
-| 100  | Content Cell  |
-|  95  | Content Cell  |
-|  90  | Content Cell  |
-|  85  | Content Cell  |
-|  80  | Content Cell  |
-|  75  | Content Cell  |
-
-
-#### 350mA Impuls=5s Kap=25%
 
 
 <p>
-      <img src="Images/Messergebnisse/350mA_impuls_5s_25.png" width=600>
+      <img src="images/measurement_results/350mA_impuls_5s_25.png" width=600>
       <em>image_caption</em>
 </p>
 
 
 
 ### Spannugsmessung
+
+
+
+| Prozent  | Gemessener Wert |
+| -------: | --------------- |
+|  100 | 1.507 |
+|  95  | 1.575 |
+|  90  | 1.570 |
+|  85  | 1.564 |
+|  80  | 1.557 |
+|  75  | 1.549 |
+|  70  | 1.542 |
+|  65  | 1.536 |
+|  60  | 1.528 |
+|  55  | 1.520 |
+|  50  | 1.512 |
+|  45  | 1.503 |
+|  40  | 1.493 |
+|  35  | 1.482 |
+|  30  | 1.471 |
+|  25  | 1.458 |
+|  20  | 1.443 |
+|  15  | 1.425 |
+|  10  | 1.398 |
+|   5  | 1.255 |
