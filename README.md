@@ -36,15 +36,15 @@ Da es sich um ein Prototypen handelt, wird die Schaltung auf einer Lochrasterpla
 
 ### Schaltplan
 
-Schaltplan Version 1:
+#### Schaltplan Version 1:
 
 ![](images/circuit_diagram/SchaltplanV1.png)
 
-Schaltplan Version 2:
+#### Schaltplan Version 2:
 
 ![](images/circuit_diagram/SchaltplanV2.png)
 
-Schematischer Aufbau:
+#### Schematischer Aufbau:
 
 ![](images/circuit_diagram/SchematischerAufbau.png)
 
@@ -86,7 +86,7 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 
 
-### Spannugsmessung
+### Spannungsmessung
 
 
 
@@ -113,5 +113,5 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 |  10  | 1.398 |
 |   5  | 1.255 |
 
-Spannungsverlauf @350mA
-<img src="images/measurement_results/voltage/voltage_profile_350mA.png" width=500>
+#### Spannungsverlauf @350mA
+<img src="images/measurement_results/voltage/voltage_profile_350mA.png">
