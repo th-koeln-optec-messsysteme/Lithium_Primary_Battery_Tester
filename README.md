@@ -6,7 +6,7 @@
    - [Schaltplan](#Schaltplan)
 - [Funktionsweise](#Funktionsweise)
 - [Messungen](#Messungen)
-   - [Pulse Response](#Pulse%20Response)
+   - [Pulse Response](#pulse_response)
    - [Spannungsmessung](#Spannungsmessung)
 
 [Link Markdown](https://github.com/FriendsOfREDAXO/markitup/blob/master/plugins/documentation/docs/de_de/howto_markdown.md)
@@ -15,8 +15,7 @@
 ---
 
 ## Aufgabenstellung
-Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut werden, der die verbleibende Kapazität einer Batterie durch Messung des Spannungabfalls an verschiedenen Testlasten approximiert. Dabei soll die Arduino-Plattform verwendet werden.
-
+Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut werden, der die verbleibende Kapazität einer Batterie durch Messung des Spannungabfalls an verschiedenen Testlasten approximiert. Dabei soll die Arduino-Plattform verwendet werden und [AA L91 ENERGIZER](https://data.energizer.com/PDFs/l91.pdf) gemessen werden.
 
 ## Code
 
@@ -58,23 +57,25 @@ Die spannung soll an der Batterie gemessen werden, während sie mit 100mA belast
 
 ## Messungen
 
-### Pulse Response 
+<a name="pulse_response"></a>
+### Pulse Response
+
 Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es keine wirkliche Pulse Response gibt. Die im Datenblatt angegebene Pulse Response scheint sich nur auf die Flanensteilheit und nicht auf die Kapazität zu beziehen:
 
 
 
 
 ##### 350mA impuls=5s Kap.=100%
-<img src="images/measurement_results/350mA_impuls_5s_100.png" width=500>
+<img src="images/measurement_results/impulse/350mA_impuls_5s_100.png" width=500>
 
 ##### 350mA impuls=5s Kap.=75%
-<img src="images/measurement_results/350mA_impuls_5s_75.png" width=500>
+<img src="images/measurement_results/impulse/350mA_impuls_5s_75.png" width=500>
 
 ##### 350mA impuls=5s Kap.=50%
-<img src="images/measurement_results/350mA_impuls_5s_50.png" width=500>
+<img src="images/measurement_results/impulse/350mA_impuls_5s_50.png" width=500>
 
 ##### 350mA impuls=5s Kap.=25%
-<img src="images/measurement_results/350mA_impuls_5s_25.png" width=500>
+<img src="images/measurement_results/impulse/350mA_impuls_5s_25.png" width=500>
 
 
 
@@ -89,7 +90,7 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 
 
-| Prozent  | Gemessener Wert |
+| Prozent [%] | Gemessener Wert [V] |
 | -------: | --------------- |
 |  100 | 1.507 |
 |  95  | 1.575 |
@@ -111,3 +112,6 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 |  15  | 1.425 |
 |  10  | 1.398 |
 |   5  | 1.255 |
+
+Spannungsverlauf @350mA
+<img src="images/measurement_results/voltage/voltage_profile_350mA.png" width=500>
