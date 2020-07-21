@@ -38,15 +38,15 @@ Da es sich um ein Prototypen handelt, wird die Schaltung auf einer Lochrasterpla
 
 #### Schaltplan Version 1:
 
-![](images/circuit_diagram/SchaltplanV1.png)
+![](doc/circuit_diagram/SchaltplanV1.png)
 
 #### Schaltplan Version 2:
 
-![](images/circuit_diagram/SchaltplanV2.png)
+![](doc/circuit_diagram/SchaltplanV2.png)
 
 #### Schematischer Aufbau:
 
-![](images/circuit_diagram/SchematischerAufbau.png)
+![](doc/circuit_diagram/SchematischerAufbau.png)
 
 ## Funktionsweise
 Zur Realisierung wurden 2 Ansätze verfolgt:  
@@ -66,13 +66,13 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 
 ##### 350mA impuls=5s Kap.=100%
-<img src="images/measurement_results/impulse/350mA_impuls_5s_100.png" width=500>
+<img src="doc/measurement_results/impulse/350mA_impuls_5s_100.png" width=500>
 
 ##### 350mA impuls=5s Kap.=75%
-<img src="images/measurement_results/impulse/350mA_impuls_5s_75.png" width=500>
+<img src="doc/measurement_results/impulse/350mA_impuls_5s_75.png" width=500>
 
 ##### 350mA impuls=5s Kap.=50%
-<img src="images/measurement_results/impulse/350mA_impuls_5s_50.png" width=500>
+<img src="doc/measurement_results/impulse/350mA_impuls_5s_50.png" width=500>
 
 ##### 350mA impuls=5s Kap.=25%
 <img src="images/measurement_results/impulse/350mA_impuls_5s_25.png" width=500>
@@ -80,7 +80,7 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 
 <p>
-      <img src="images/measurement_results/350mA_impuls_5s_25.png" width=600>
+      <img src="doc/measurement_results/impulse/350mA_impuls_5s_25.png" width=600>
       <em>image_caption</em>
 </p>
 
@@ -114,4 +114,4 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 |   5  | 1.255 |
 
 #### Spannungsverlauf @350mA
-<img src="images/measurement_results/voltage/voltage_profile_350mA.png">
+<img src="doc/measurement_results/voltage/voltage_profile_350mA.png">
