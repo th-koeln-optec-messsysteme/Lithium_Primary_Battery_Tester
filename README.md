@@ -75,7 +75,7 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 <img src="doc/measurement_results/impulse/350mA_impuls_5s_50.png" width=500>
 
 ##### 350mA impuls=5s Kap.=25%
-<img src="images/measurement_results/impulse/350mA_impuls_5s_25.png" width=500>
+<img src="doc/measurement_results/impulse/350mA_impuls_5s_25.png" width=500>
 
 
 
