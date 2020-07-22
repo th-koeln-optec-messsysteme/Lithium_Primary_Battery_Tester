@@ -7,8 +7,6 @@
   - [Platine](#platine)
     - [Bauteile](#bauteile)
     - [Schaltplan](#schaltplan)
-      - [Schaltplan Version 1](#schaltplan-version-1)
-      - [Schaltplan Version 2](#schaltplan-version-2)
       - [Schaltplan Version 3:](#schaltplan-version-3)
       - [Schematischer Aufbau:](#schematischer-aufbau)
   - [Funktionsweise](#funktionsweise)
@@ -83,9 +81,9 @@ Da es sich um ein Prototypen handelt, wird die Schaltung auf einer Lochrasterpla
 
 ### Schaltplan
 
-#### [Schaltplan Version 1](doc/circuit_diagram/SchaltplanV1.png)
+**[Schaltplan Version 1](doc/circuit_diagram/SchaltplanV1.png)**
 
-#### [Schaltplan Version 2](doc/circuit_diagram/SchaltplanV2.png)
+**[Schaltplan Version 2](doc/circuit_diagram/SchaltplanV2.png)**
 - ADC wurde hinzugefügt
 
 #### Schaltplan Version 3:
