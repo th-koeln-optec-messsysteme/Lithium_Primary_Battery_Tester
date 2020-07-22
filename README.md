@@ -19,7 +19,14 @@ Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut w
 
 ## Get started
 
-Es wird die Arduino IDE verwendet. Laden Sie sich den Code und die passenden Bibliotheken herunter. [Links](doc/bib.md)
+Es wird die Arduino IDE verwendet. Laden Sie sich den Code und die passenden Bibliotheken herunter. 
+
+| Bauteil | Link |
+|---------|------|
+| ADC | [ADS1115](https://github.com/adafruit/Adafruit_ADS1X15) |
+| DAC | [MCP4921](https://github.com/michd/Arduino-MCP492X/blob/master/README.md) |
+
+Bibliotheken einbinden: [How to](https://42project.net/bibliothek-library-in-arduino-ide-installieren-und-einbinden/) 
 
 ## Code
 
