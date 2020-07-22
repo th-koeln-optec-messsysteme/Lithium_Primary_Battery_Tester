@@ -28,6 +28,8 @@ Es wird die Arduino IDE verwendet. Laden Sie sich den Code und die passenden Bib
 
 Bibliotheken einbinden: [How to](https://42project.net/bibliothek-library-in-arduino-ide-installieren-und-einbinden/) 
 
+Nachdem die Platine wie im Schaltplan zu sehen aufgebaut wurde, wird das Programm auf den Arduino gespielt.
+
 ## Code
 
 
@@ -66,5 +68,6 @@ Die Kapazität soll mithilfe des Pulse Response ermittelt werden. Dazu soll ein 
 Variante 2:  
 Die spannung soll an der Batterie gemessen werden, während sie mit 100mA belastet wird.
 
-## [Messungen](doc/measurement.md)
+## Messungen
 
+Alle auf aufgezeichneten Daten und Graphen finden Sie [hier](doc/measurement.md).
