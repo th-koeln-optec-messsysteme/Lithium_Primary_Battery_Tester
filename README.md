@@ -17,6 +17,10 @@
 ## Aufgabenstellung
 Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut werden, der die verbleibende Kapazität einer Batterie durch Messung des Spannungabfalls an verschiedenen Testlasten approximiert. Dabei soll die Arduino-Plattform verwendet werden und [AA L91 ENERGIZER](https://data.energizer.com/PDFs/l91.pdf) gemessen werden.
 
+## Get started
+
+Es wird die Arduino IDE verwendet. Laden Sie sich den Code und die passenden Bibliotheken herunter. [Links](doc/bib.md)
+
 ## Code
 
 
@@ -88,7 +92,7 @@ Nach Analyse des Pulse Response mit einem Oszilloskop wurde festgestellt, das es
 
 ### Spannungsmessung
 
-
+Spannungsmessung bei 350mA 
 
 | Prozent [%] | Gemessener Wert [V] |
 | -------: | --------------- |
