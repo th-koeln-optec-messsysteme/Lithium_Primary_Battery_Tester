@@ -25,10 +25,12 @@ Es soll ein Prototyp eines Batterietester für Lithium-Primärzellen aufgebaut w
 
 Es wird die Arduino IDE verwendet. Laden Sie sich den Code und die passenden Bibliotheken herunter. 
 
-| Bauteil | Link |
-|---------|------|
-| ADC | [ADS1115](https://github.com/adafruit/Adafruit_ADS1X15) |
-| DAC | [MCP4921](https://github.com/michd/Arduino-MCP492X/blob/master/README.md) |
+| Bauteil | Link                                                                      |
+| ------- | ------------------------------------------------------------------------- |
+| ADC     | [ADS1115](https://github.com/adafruit/Adafruit_ADS1X15)                   |
+| DAC     | [MCP4921](https://github.com/michd/Arduino-MCP492X/blob/master/README.md) |
+
+Die LCD Bibliothek finden Sie in dem Bibliothekverwalter unter "LiquidCrystal" von Adafruit.
 
 Bibliotheken einbinden: [How to](https://42project.net/bibliothek-library-in-arduino-ide-installieren-und-einbinden/) 
 
@@ -36,20 +38,47 @@ Nachdem die Platine wie im Schaltplan zu sehen aufgebaut wurde, wird das Program
 
 ## Code
 
+Prinzipielle Vorgehensweise.
+1. Last anlegen und Spannung einlesen
+2. Spannung mitteln
+3. Kapazität berechnen
+4. Ausgabe LCD
+
+
+Vorbereitungen:
+- Wahl der Sprache: C++
+- Wahl der Entwicklungsumgebung: Arduino IDE
+- Dem Arduino externe Hardware bekannt machen und I/O Pins definieren
+
+Messung:
+Die Messung erfolgt in einer Dauerschleife bzw. Funktion loop(). Am DAC wird eine Last von 100mA bis 350mA eingestellt.
+Im Anschluss wird die Spannung über dem ADC 20 mal eingelesen.
+Spannung mitteln:
+Die Gemessene Spannung wird in der Funktion SpannungMitteln() gemittelt.
+Die Gemittelte Spannung wird dann im Schritt Kapazität berechnen weiterverwendet.
+Kapazität berechnen:
+Das Programm springt dazu in die Funktion KapazitaetBerechnen().
+Die Spannung wird mit den Ermittelten Kapazitätswerten in einem Array abgeglichen.
+Erst wird über eine Zählerschleife geguckt ab wann die Spannung kleiner wäre als
+der nächste Wert im Array.
+Dann werden die Werte zwischen denen die gemessene Spannung liegt nach der Geradengleichung verbunden.
+Die Kapazität entspricht dann einem Wert auf dieser Geraden.
+Ausgabe LCD:
+In der Funktion Ausgabe() werden Schrittweise nacheinander alle Messwerte und Ergebnisse auf dem LCD ausgegeben.
 
 ## Platine
 Da es sich um ein Prototypen handelt, wird die Schaltung auf einer Lochrasterplatine aufgebaut.
 
 ### Bauteile
-| Lf Nr.| Bauteil         |  Typ       | Beschreibung                                   |
-| ------| --------------- |  --------- | ---------------------------------------------- |
-| 1     | Microcontroller | Arduino    | Arduino Nano Every                             |
-| 2     | Display         | 20x4       | LCD 20x4 Display                               |
-| 3     | OpAmp           | LMx58-N    | LMx58-N Low-Power, Dual-Operational Amplifiers |
-| 4     | MOSFET          | TN0702N3-G | N-Channel 60-V (D-S) MOSFET                    |
-| 5     | ADC             | ADS1115    | Analog-in-Digital-Wandler 16 Bit               |
-| 6     | DAC             | MCP4921    | Digital-in-Analog-Wandler - DAC Sgl 12-bit SPI |
-| 7     | Batteriehalter  | AA         | Batteriehalter für AA Batterien                |
+| Lf Nr. | Bauteil         | Typ        | Beschreibung                                   |
+| ------ | --------------- | ---------- | ---------------------------------------------- |
+| 1      | Microcontroller | Arduino    | Arduino Nano Every                             |
+| 2      | Display         | 20x4       | LCD 20x4 Display                               |
+| 3      | OpAmp           | LMx58-N    | LMx58-N Low-Power, Dual-Operational Amplifiers |
+| 4      | MOSFET          | TN0702N3-G | N-Channel 60-V (D-S) MOSFET                    |
+| 5      | ADC             | ADS1115    | Analog-in-Digital-Wandler 16 Bit               |
+| 6      | DAC             | MCP4921    | Digital-in-Analog-Wandler - DAC Sgl 12-bit SPI |
+| 7      | Batteriehalter  | AA         | Batteriehalter für AA Batterien                |
 
 ### Schaltplan
 
