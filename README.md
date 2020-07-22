@@ -12,8 +12,6 @@
   - [Funktionsweise](#funktionsweise)
   - [Messungen](#messungen)
 
-[Link Markdown](https://github.com/FriendsOfREDAXO/markitup/blob/master/plugins/documentation/docs/de_de/howto_markdown.md)
-
 
 ---
 
@@ -97,9 +95,9 @@ Da es sich um ein Prototypen handelt, wird die Schaltung auf einer Lochrasterpla
 ## Funktionsweise
 
 Zur Realisierung wurden 2 Ansätze verfolgt:  
-Variante 1:  
+**Variante 1:** 
 Die Kapazität soll mithilfe des Pulse Response ermittelt werden. Dazu soll ein 100mA-Impuls auf die Batterie gegeben werden. Je nach dem, wie lange die Batterie benötigt, um sich zu erholen (bis sich die Batteriespannung wieder stabilisiert hat), soll die Kapazität ermittelt werden.  
-Variante 2:  
+**Variante 2:**  
 Die spannung soll an der Batterie gemessen werden, während sie mit 100mA belastet wird.
 
 Die Batterie wird durch einen [Current Sink](https://e2e.ti.com/blogs_/b/powerhouse/archive/2015/08/21/how-to-generate-current-sources-and-sinks-of-arbitrary-magnitude) belastet, damit der Strom konstant gehalten werden kann.
