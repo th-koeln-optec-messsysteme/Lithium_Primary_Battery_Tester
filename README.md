@@ -105,7 +105,7 @@ Die spannung soll an der Batterie gemessen werden, während sie mit 100mA belast
 Die Batterie wird durch einen [Current Sink](https://e2e.ti.com/blogs_/b/powerhouse/archive/2015/08/21/how-to-generate-current-sources-and-sinks-of-arbitrary-magnitude) belastet, damit der Strom konstant gehalten werden kann.
 Dadurch kann eine genauere Spannungskurve aufgezeichnet werden und die Restkapazität kann genauer ermittelt werden.
 
-Da die Messungen bei Variante 1 nicht aussagekräftig ist, wird die Variante 1 verwendet.
+Da die Messungen bei Variante 1 nicht aussagekräftig ist, **wird die Variante 1 verwendet**.
 
 ## Messungen
 
