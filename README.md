@@ -1,13 +1,17 @@
 # Aufbau eines Batterietesters für Lithiumbatterien
 
-- [Aufgabenstellung](#Aufgabenstellung)
-- [Platine](#Platine)
-   - [Bauteile](#Bauteile)
-   - [Schaltplan](#Schaltplan)
-- [Funktionsweise](#Funktionsweise)
-- [Messungen](#Messungen)
-   - [Pulse Response](#pulse_response)
-   - [Spannungsmessung](#Spannungsmessung)
+- [Aufbau eines Batterietesters für Lithiumbatterien](#aufbau-eines-batterietesters-für-lithiumbatterien)
+  - [Aufgabenstellung](#aufgabenstellung)
+  - [Get started](#get-started)
+  - [Code](#code)
+  - [Platine](#platine)
+    - [Bauteile](#bauteile)
+    - [Schaltplan](#schaltplan)
+      - [Schaltplan Version 1:](#schaltplan-version-1)
+      - [Schaltplan Version 2:](#schaltplan-version-2)
+      - [Schematischer Aufbau:](#schematischer-aufbau)
+  - [Funktionsweise](#funktionsweise)
+  - [Messungen](#messungen)
 
 [Link Markdown](https://github.com/FriendsOfREDAXO/markitup/blob/master/plugins/documentation/docs/de_de/howto_markdown.md)
 
@@ -62,12 +66,17 @@ Da es sich um ein Prototypen handelt, wird die Schaltung auf einer Lochrasterpla
 ![](doc/circuit_diagram/SchematischerAufbau.png)
 
 ## Funktionsweise
+
 Zur Realisierung wurden 2 Ansätze verfolgt:  
 Variante 1:  
 Die Kapazität soll mithilfe des Pulse Response ermittelt werden. Dazu soll ein 100mA-Impuls auf die Batterie gegeben werden. Je nach dem, wie lange die Batterie benötigt, um sich zu erholen (bis sich die Batteriespannung wieder stabilisiert hat), soll die Kapazität ermittelt werden.  
 Variante 2:  
 Die spannung soll an der Batterie gemessen werden, während sie mit 100mA belastet wird.
 
+Die Batterie wird durch einen [Current Sink](https://e2e.ti.com/blogs_/b/powerhouse/archive/2015/08/21/how-to-generate-current-sources-and-sinks-of-arbitrary-magnitude) belastet, damit der Strom konstant gehalten werden kann.
+Dadurch kann eine genauere Spannungskurve aufgezeichnet werden und die Restkapazität kann genauer ermittelt werden.
+
 ## Messungen
 
 Alle auf aufgezeichneten Daten und Graphen finden Sie [hier](doc/measurement.md).
+
