@@ -31,7 +31,7 @@ Die LCD Bibliothek finden Sie in dem Bibliothekverwalter unter "LiquidCrystal" v
 
 Bibliotheken einbinden: [How to](https://42project.net/bibliothek-library-in-arduino-ide-installieren-und-einbinden/) 
 
-Nachdem die Platine wie im Schaltplan zu sehen aufgebaut wurde, wird das Programm auf den Arduino gespielt.
+Nachdem die Platine wie im Schaltplan zu sehen aufgebaut wurde, wird das Programm auf den Arduino gespielt und kann benutzt werden.
 
 ## Code
 
