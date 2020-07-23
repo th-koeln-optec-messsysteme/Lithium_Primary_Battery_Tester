@@ -15,7 +15,8 @@ MCP492X myDac(PIN_SPI_CHIP_SELECT_DAC);
 
 double Spannung, Spannungsspeicher[20];
 float Vergleichswerte[20][2];
-float KapazitaetKurve[ 5 ][ 2 ] = {{1780,3500},{ 1650,1600},{ 1590,1500},{ 1500,300},{ 1400,0}};
+float KapazitaetKurve[35][2] = { {1.649,3500},{1.522,3400},{1.520,3300},{1.516,3200},{1.511,3100},{1.506,3000},{1.502,3300},{1.498,2900},{1.495,2800},{1.492,2700},{1.489,2600},{1.484,2500},{1.480,2400},{1.478,2300},{1.476,2200},{1.474,2100},{1.472,2000},{1.470,1900},{1.467,1800},{1.464,1700},{1.460,1600},{1.455,1500},{1.445,1400},{1.430,1300},{1.421,1300},{1.412,1200},{1.401,1100},{1.390,1000},{1.379,900},{1.367,800},{1.353,700},{1.335,600},{1.310,500},{1.256,400},{0.127,0}};
+float Kurve[ 5 ][ 2 ] = {{1780,3500},{ 1650,1600},{ 1590,1500},{ 1500,300},{ 1400,0}};
 unsigned int Laufvariabel = 0;
 short zaehler = 0;
 
@@ -28,6 +29,7 @@ void setup() {
   ads.begin();
   myDac.begin();
   myDac.analogWrite(0);     //Ausgang des DA-Wandlers 168: 100mA    582: 350mA 
+
 }
 
 //Arithmetisches Mittel über Spannung
@@ -79,7 +81,7 @@ double KapazitaetBerechnen(double GemittetelteSpannung) {
 
 void Ausgabe() {
   int KapazitaetProzent;
-  if(Laufvariabel%3000 == 0 && Laufvariabel != 0){
+  if(Laufvariabel%1000 == 0 && Laufvariabel != 0){
  //Ausgabe Kapazität
        KapazitaetProzent = ( KapazitaetBerechnen(SpannungMitteln()) / 3500 )* 100;
        lcd.setCursor(0, 1);
@@ -94,6 +96,7 @@ void Ausgabe() {
        lcd.print(" mV   ");  
      Serial.println(SpannungMitteln());
   Laufvariabel = 0;
+  while(1);
   }
 }
 //Spannung Überwachen
@@ -101,18 +104,12 @@ void Ausgabe() {
 void loop() {
   
   //dauerhaftes lesen der Spannung
-  double UBatterie = ads.readADC_SingleEnded(0)*0.0000625;
-  
-       lcd.setCursor(0, 0);
-       lcd.print(UBatterie);
-       lcd.setCursor(7, 0);
-       lcd.print(" mV   ");  
-     delay(10);
-  
-  /*
+  float UBatterie = ads.readADC_SingleEnded(0)*0.0000625;
+ 
   if(Laufvariabel%50 == 0) {
-      Spannungsspeicher[zaehler] = Spannung;
+      Spannungsspeicher[zaehler] = UBatterie;
       zaehler++;
+      Serial.println(UBatterie);
   }
   
 // Ausgabe nur in gewissen Abständen um Lesbarkeit zu gewährleisten
@@ -121,5 +118,4 @@ void loop() {
       Ausgabe();
   } 
   Laufvariabel++; 
-  */
 }
